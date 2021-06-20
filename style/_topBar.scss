@@ -1,0 +1,26 @@
+.topbar{
+    background-color: #003b60;
+    color: #fff;
+    height: 45px;
+    width: 100%;
+
+    &__login{
+        padding: 5px 35px;
+        background-color: #0e537a;
+        color: #fff;
+        height: 45px;
+        font-size: 20px;
+        border: none;
+    }
+   
+}
+
+.navbarr{
+    color: #003b60;
+    &__list{
+        &__item{
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+}
