@@ -1,26 +1,31 @@
 .topbar{
     background-color: #003b60;
     color: #fff;
-    height: 45px;
     width: 100%;
+    font-size: 11px;
 
     &__login{
-        padding: 5px 35px;
+        padding: 5px 25px;
         background-color: #0e537a;
         color: #fff;
-        height: 45px;
-        font-size: 20px;
+       
         border: none;
     }
    
 }
 
 .navbarr{
-    color: #003b60;
+    color: black;
     &__list{
-        &__item{
-            font-weight: bold;
-            font-size: 15px;
+        &__a{
+            text-decoration: none;
+                font-weight: bold;
+                font-size: 12px;
+                color: black;
+
+          
         }
+
+        
     }
 }
